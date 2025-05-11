@@ -22,7 +22,7 @@
 
   <script>
     async function fetchLeaderboard() {
-      const res = await fetch('/api/leaderboard');
+      const res = await fetch('https://1746937945532.discloud.app/api/leaderboard');
       const data = await res.json();
       const tbody = document.getElementById('leaderboard');
       tbody.innerHTML = '';
